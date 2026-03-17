@@ -90,7 +90,7 @@ For most users:
 | **Linux ARM** | `kilo-linux-arm64.tar.gz` |
 | **Linux Alpine/Docker** | `kilo-linux-x64-musl.tar.gz` |
 
-If the downloaded binary does not run, try the `x64-baseline` variant for your platform.
+If the downloaded x64 binary does not run, try the `x64-baseline` variant for your platform.
 
 ### Autonomous Mode (CI/CD)
 
