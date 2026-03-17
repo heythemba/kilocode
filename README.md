@@ -38,7 +38,7 @@
 ## Get Started in Visual Studio Code
 
 1. Install the Kilo Code extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=kilocode.Kilo-Code).
-2. Create your account to access 500+ cutting-edge AI models including Gemini 3 Pro, Claude 4.5 Sonnet & Opus, and GPT-5 – with transparent pricing that matches provider rates exactly.
+2. Create your account to access 500+ cutting-edge AI models including Gemini 3.1 Pro, Claude 4.6 Sonnet & Opus, and GPT-5.2 – with transparent pricing that matches provider rates exactly.
 3. Start coding with AI that adapts to your workflow. Watch our quick-start guide to see Kilo in action:
 
 [![Watch the video](https://img.youtube.com/vi/pqGfYXgrhig/maxresdefault.jpg)](https://youtu.be/pqGfYXgrhig)
@@ -73,19 +73,24 @@ Download the latest binary or source code from the [Releases page](https://githu
 - `kilo-<os>-<arch>.zip` is the CLI binary for your OS and CPU architecture on Windows and macOS. (`kilo-linux-<arch>.tar.gz` for Linux)
 - `darwin` means macOS.
 - `x64` is standard 64-bit Intel/AMD CPUs.
-- `x64-baseline` is a compatibility build for older x64 CPUs(do not support AVX Instruction).
-- `arm64` is ARM-based Linux/MacOS.
-- `musl` is statically linked Linux build for Alpine/minimal Docker without glibc. Alpine/minimal Docker users should prefer the matching \*-musl asset.
+- `x64-baseline` is a compatibility build for older x64 CPUs (does not support AVX instructions). Use this if the standard `x64` build crashes on startup.
+- `arm64` is ARM-based Linux/macOS.
+- `musl` is a statically linked Linux build for Alpine/minimal Docker environments without glibc. Alpine/minimal Docker users should prefer the matching `*-musl` asset.
 - `kilo-vscode-*.vsix` is the VS Code extension package and not the CLI binary.
 - `Source code` releases are for building from source, not normal installation.
 
 For most users:
 
-- **Windows (most PCs):** `kilo-windows-x64.zip`
-- **macOS Apple Silicon:** `kilo-darwin-arm64.zip`
-- **macOS Intel:** `kilo-darwin-x64.zip`
-- **Linux x64:** `kilo-linux-x64.tar,gz`
-- **Linux on ARM:** `kilo-linux-arm64.tar.gz`
+| Your System | Download |
+|---|---|
+| **Windows (most PCs)** | `kilo-windows-x64.zip` |
+| **macOS Apple Silicon (M1/M2/M3)** | `kilo-darwin-arm64.zip` |
+| **macOS Intel** | `kilo-darwin-x64.zip` |
+| **Linux x64** | `kilo-linux-x64.tar.gz` |
+| **Linux ARM** | `kilo-linux-arm64.tar.gz` |
+| **Linux Alpine/Docker** | `kilo-linux-x64-musl.tar.gz` |
+
+If the downloaded binary does not run, try the `x64-baseline` variant for your platform.
 
 ### Autonomous Mode (CI/CD)
 
@@ -110,8 +115,8 @@ Our community is built on respect, inclusivity, and collaboration. Please review
 
 ## License
 
-This project is licensed under the MIT License.
-You’re free to use, modify, and distribute this code, including for commercial purposes as long as you include proper attribution and license notices. See [License](/LICENSE).
+This project is licensed under the [Apache-2.0 License](/LICENSE).
+You're free to use, modify, and distribute this code, including for commercial purposes, as long as you include proper attribution and license notices. See [License](/LICENSE).
 
 ### Where did Kilo CLI come from?
 
