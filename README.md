@@ -87,7 +87,7 @@ For most users:
 | **macOS Apple Silicon (M1/M2/M3)** | `kilo-darwin-arm64.zip` |
 | **macOS Intel** | `kilo-darwin-x64.zip` |
 | **Linux x64** | `kilo-linux-x64.tar.gz` |
-| **Linux ARM** | `kilo-linux-arm64.tar.gz` |
+| **Linux ARM64** | `kilo-linux-arm64.tar.gz` |
 | **Linux Alpine/Docker** | `kilo-linux-x64-musl.tar.gz` |
 
 If the downloaded x64 binary does not run, try the `x64-baseline` variant for your platform.
