@@ -115,7 +115,7 @@ Our community is built on respect, inclusivity, and collaboration. Please review
 
 ## License
 
-This project is licensed under the [Apache-2.0 License](/LICENSE).
+This project is licensed under the [MIT License](/LICENSE).
 You're free to use, modify, and distribute this code, including for commercial purposes, as long as you include proper attribution and license notices. See [License](/LICENSE).
 
 ### Where did Kilo CLI come from?
