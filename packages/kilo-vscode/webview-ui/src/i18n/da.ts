@@ -473,6 +473,8 @@ export const dict = {
   "ui.permission.toolLabel.todoRead": "Læs To-do",
   "ui.permission.toolLabel.todoWrite": "Skriv To-do",
   "ui.permission.toolLabel.codeSearch": "Kodesøgning",
+  "ui.permission.toggleWrap": "Skift tekstombrydning",
+  "ui.permission.copyCommand": "Kopiér",
   "notification.question.title": "Spørgsmål",
   "notification.question.description": "{{sessionTitle}} i {{projectName}} har et spørgsmål",
   "notification.action.goToSession": "Gå til session",
@@ -995,6 +997,10 @@ export const dict = {
   "settings.agentBehaviour.removeMode.confirm":
     'Vil du fjerne tilstanden "{{name}}"? Dette vil deaktivere tilstanden ved at opdatere din konfiguration.',
   "settings.agentBehaviour.removeMode.button": "Fjern",
+  "settings.agentBehaviour.removeMcp.title": "Fjern MCP-server",
+  "settings.agentBehaviour.removeMcp.confirm":
+    'Vil du fjerne MCP-serveren "{{name}}"? Dette vil fjerne den fra din konfiguration.',
+  "settings.agentBehaviour.removeMcp.button": "Fjern",
   "settings.agentBehaviour.skillPaths": "Skill-mappestier",
   "settings.agentBehaviour.skillUrls": "Skill-URL'er",
   "settings.agentBehaviour.removeSkill.title": "Fjern færdighed",

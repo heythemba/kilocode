@@ -471,6 +471,8 @@ export const dict = {
   "ui.permission.toolLabel.todoRead": "Todo読み込み",
   "ui.permission.toolLabel.todoWrite": "Todo書き込み",
   "ui.permission.toolLabel.codeSearch": "コード検索",
+  "ui.permission.toggleWrap": "折り返しを切り替え",
+  "ui.permission.copyCommand": "コピー",
   "notification.question.title": "質問",
   "notification.question.description": "{{projectName}} の {{sessionTitle}} から質問があります",
   "notification.action.goToSession": "セッションへ移動",
@@ -995,6 +997,9 @@ export const dict = {
   "settings.agentBehaviour.removeMode.confirm":
     'モード "{{name}}" を削除しますか？設定を更新してモードを無効にします。',
   "settings.agentBehaviour.removeMode.button": "削除",
+  "settings.agentBehaviour.removeMcp.title": "MCPサーバーを削除",
+  "settings.agentBehaviour.removeMcp.confirm": 'MCPサーバー "{{name}}" を削除しますか？設定から削除されます。',
+  "settings.agentBehaviour.removeMcp.button": "削除",
   "settings.agentBehaviour.skillPaths": "スキルフォルダパス",
   "settings.agentBehaviour.skillUrls": "スキルURL",
   "settings.agentBehaviour.removeSkill.title": "スキルを削除",
