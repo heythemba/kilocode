@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/package.json",
-  "version": "7.0.51",
+  "version": "7.1.0",
   "name": "@kilocode/cli",
   "type": "module",
   "license": "MIT",
@@ -84,6 +84,7 @@
     "@hono/standard-validator": "0.1.5",
     "@hono/zod-validator": "catalog:",
     "@modelcontextprotocol/sdk": "1.25.2",
+    "@morphllm/morphsdk": "0.2.148",
     "@octokit/graphql": "9.0.2",
     "@octokit/rest": "catalog:",
     "@openauthjs/openauth": "catalog:",
@@ -137,7 +138,6 @@
     "zod-to-json-schema": "3.24.5",
     "@kilocode/kilo-gateway": "workspace:*",
     "@kilocode/kilo-telemetry": "workspace:*",
-    "@morphllm/morphsdk": "0.2.148",
     "simple-git": "3.31.1"
   },
   "overrides": {
